@@ -47,10 +47,6 @@ The above command will turn all js files in the pages/ directory into a single p
 
 This can be a very powerful tool when working in a complex codebase with multiple files. Here's an example of one successful run where we use c2p to generate a prompt to augment an existing rust web application: https://chat.openai.com/share/3c674621-e526-45b7-bce8-10c38ee6c571
 
-### Arguments
-
-- `files_or_patterns`: A mandatory list of files or glob patterns to read.
-
 ## License
 
 `c2p` is made available under the MIT License. See the `LICENSE.md` file for more information.
