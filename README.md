@@ -15,7 +15,7 @@ Before installing `c2p`, make sure you have Rust and Cargo installed on your sys
 Install `c2p` by cloning the repository and running the provided install script:
 
 ```sh
-git clone https://your-repository-url/c2p.git
+git clone git@github.com:TheBuilderJR/c2p.git
 cd c2p
 chmod +x install.sh
 ./install.sh
