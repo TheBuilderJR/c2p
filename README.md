@@ -31,6 +31,12 @@ Execute `c2p` from the terminal, providing files or glob patterns:
 c2p [FILES OR PATTERNS...]
 ```
 
+So for example if you wanted to turn all the js files in a /pages directory into a prompt you could run
+
+```sh
+c2p pages/**/*.js | pbcopy
+```
+
 On macOS, to copy contents to the clipboard, you can use `pbcopy`:
 
 ```sh
