@@ -1,4 +1,3 @@
-````markdown
 # c2p - Code to Prompt
 
 `c2p` (code to prompt) is a Rust command-line application designed to facilitate the copying of code snippets directly from your filesystem into a clipboard, making it extremely handy for transferring code into prompt-based interfaces or tools like ChatGPT.
@@ -21,7 +20,6 @@ cd c2p
 chmod +x install.sh
 ./install.sh
 ```
-````
 
 This will build `c2p` and install the executable to `/usr/local/bin`.
 
