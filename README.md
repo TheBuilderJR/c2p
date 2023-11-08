@@ -41,6 +41,8 @@ c2p path/to/source_code.rs | pbcopy
 
 The above command will pipe the contents of `source_code.rs` to the clipboard, ready to be pasted into tools such as ChatGPT.
 
+Here's an example of one successful run: https://chat.openai.com/share/3c674621-e526-45b7-bce8-10c38ee6c571
+
 ### Arguments
 
 - `files_or_patterns`: A mandatory list of files or glob patterns to read.
