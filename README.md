@@ -31,19 +31,19 @@ Execute `c2p` from the terminal, providing files or glob patterns:
 c2p [FILES OR PATTERNS...]
 ```
 
-So for example if you wanted to turn all the js files in a /pages directory into a prompt you could run
+So for example if you wanted to turn all js files in a /pages directory into a prompt you could run
 
 ```sh
-c2p pages/**/*.js | pbcopy
+c2p pages/**/*.js
 ```
 
 On macOS, to copy contents to the clipboard, you can use `pbcopy`:
 
 ```sh
-c2p path/to/source_code.rs | pbcopy
+c2p pages/**/*.js | pbcopy
 ```
 
-The above command will pipe the contents of `source_code.rs` to the clipboard, ready to be pasted into tools such as ChatGPT.
+The above command will turn all js files in the pages/ directory into a single prompt and copy it to your clipboard, ready to be pasted into tools such as ChatGPT.
 
 This can be a very powerful tool when working in a complex codebase with multiple files. Here's an example of one successful run where we use c2p to generate a prompt to augment an existing rust web application: https://chat.openai.com/share/3c674621-e526-45b7-bce8-10c38ee6c571
 
