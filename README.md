@@ -39,7 +39,7 @@ c2p path/to/source_code.rs | pbcopy
 
 The above command will pipe the contents of `source_code.rs` to the clipboard, ready to be pasted into tools such as ChatGPT.
 
-Here's an example of one successful run: https://chat.openai.com/share/3c674621-e526-45b7-bce8-10c38ee6c571
+This can be a very powerful tool when working in a complex codebase with multiple files. Here's an example of one successful run where we use c2p to generate a prompt to augment an existing rust web application: https://chat.openai.com/share/3c674621-e526-45b7-bce8-10c38ee6c571
 
 ### Arguments
 
